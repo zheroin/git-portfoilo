@@ -43,6 +43,7 @@ jobs:
         uses: actions/configure-pages@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          floder: ./dists
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
