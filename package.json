@@ -35,7 +35,9 @@
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\""
+    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -51,6 +53,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.12",
     "prettier": "^2.6.0",
     "prop-types": "^15.8.1",
