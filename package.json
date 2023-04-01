@@ -36,8 +36,8 @@
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm install",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "@arifszn/blog-js": "^2.0.4",
