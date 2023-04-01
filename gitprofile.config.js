@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'CleanCodeCreature', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 12, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -19,17 +19,16 @@ const config = {
     dribbble: '',
     behance: '',
     medium: '',
-    dev: 'Full-stack Web development',
-    stackoverflow: '', // format: userid/username
-    skype: 'live:.cid.6c4780f77922e7a',
+    dev: 'cleancodecreature',
+    stackoverflow: '21454476/lambert-lee', // format: userid/username
+    skype: 'https://join.skype.com/invite/yEMGNPuV5TQh',
     telegram: '',
-    website: 'https://threeC-web-dev.com',
+    website: 'https://lambert-lee.vercel.app',
     phone: '',
     email: 'onceBetter2025@outlook.com',
   },
   resume: {
-    fileUrl:
-      `https://drive.google.com/file/d/19Xqdx9qZAgzGKDZjPUfW6Vg8B5-4LkJZ/view?usp=sharing`, // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: `https://drive.google.com/file/d/1TOv8WndvelStxP8VOpWX4hu6kMgIBhg7/view?usp=sharing`, // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -47,22 +46,22 @@ const config = {
     'Antd',
     'Tailwind',
   ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
+  // experiences: [
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'September 2021',
+  //     to: 'Present',
+  //     companyLink: 'https://example.com',
+  //   },
+  //   {
+  //     company: 'Company Name',
+  //     position: 'Position',
+  //     from: 'July 2019',
+  //     to: 'August 2021',
+  //     companyLink: 'https://example.com',
+  //   },
+  // ],
   /* certifications: [
     {
       name: 'Lorem ipsum',
@@ -71,44 +70,44 @@ const config = {
       link: 'https://example.com'
     },
   ], */
-  education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
+  // education: [
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2015',
+  //     to: '2019',
+  //   },
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2012',
+  //     to: '2014',
+  //   },
+  // ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-  ],
-  // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'CleanCodeCreature', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
+  // externalProjects: [
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  // ],
+  // // Display blog posts from your medium or dev account. (Optional)
+  // blog: {
+  //   source: 'dev', // medium | dev
+  //   username: 'CleanCodeCreature', // to hide blog section, keep it empty
+  //   limit: 2, // How many posts to display. Max is 10.
+  // },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -179,7 +178,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/CleanCodeCreature/portfolio-web-dev"
+      class="text-primary" href="https://github.com/CleanCodeCreature"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,

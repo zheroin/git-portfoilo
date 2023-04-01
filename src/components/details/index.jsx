@@ -107,7 +107,7 @@ const Details = ({ profile, loading, social, github }) => {
                   link={
                     isCompanyMention(profile.company.trim())
                       ? companyLink(profile.company.trim())
-                      : null
+                      : companyLink
                   }
                 />
               )}
@@ -210,7 +210,7 @@ const Details = ({ profile, loading, social, github }) => {
                   icon={<FaSkype />}
                   title="Skype"
                   value={social.skype}
-                  link={`skype:${social.skype}?chat`}
+                  link={`${social.skype}?chat`}
                 />
               )}
               {social?.telegram && (

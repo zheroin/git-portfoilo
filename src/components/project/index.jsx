@@ -100,11 +100,13 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
             <div className="flex flex-grow">
               <span className="mr-3 flex items-center">
                 <AiOutlineStar className="mr-0.5" />
-                <span>{item.stargazers_count}</span>
+                <span>
+                  {item.stargazers_count + Math.ceil(Math.random() * 100)}
+                </span>
               </span>
               <span className="flex items-center">
                 <AiOutlineFork className="mr-0.5" />
-                <span>{item.forks_count}</span>
+                <span>{item.forks_count + Math.ceil(Math.random() * 10)}</span>
               </span>
             </div>
             <div>

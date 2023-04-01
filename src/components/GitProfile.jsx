@@ -6,11 +6,8 @@ import ThemeChanger from './theme-changer';
 import AvatarCard from './avatar-card';
 import Details from './details';
 import Skill from './skill';
-import Experience from './experience';
 import Certification from './certification';
-import Education from './education';
 import Project from './project';
-import Blog from './blog';
 import Footer from './footer';
 import {
   genericError,
@@ -25,7 +22,10 @@ import { HelmetProvider } from 'react-helmet-async';
 import PropTypes from 'prop-types';
 import '../assets/index.css';
 import { formatDistance } from 'date-fns';
-import ExternalProject from './external-project';
+// import ExternalProject from './external-project';
+// import Experience from './experience';
+// import Education from './education';
+// import Blog from './blog';
 
 const bgColor = 'bg-base-300';
 
@@ -58,13 +58,12 @@ const GitProfile = ({ config }) => {
       .get(`https://api.github.com/users/${sanitizedConfig.github.username}`)
       .then((response) => {
         let data = response.data;
-
         let profileData = {
           avatar: data.avatar_url,
           name: data.name ? data.name : 'Web developer',
-          bio: data.bio ? data.bio : `Hello world. This is fullstack web developer`,
-          location: data.location ? data.location : 'United State',
-          company: data.company ? data.company : 'Freelancer',
+          bio: data.bio ? data.bio : `Who are you?`,
+          location: data.location ? data.location : 'CA US',
+          company: data.company ? data.company : 'I am going to find job.',
         };
 
         setProfile(profileData);
@@ -95,7 +94,6 @@ const GitProfile = ({ config }) => {
           })
           .then((response) => {
             let data = response.data;
-
             setRepo(data.items);
           })
           .catch((error) => {
@@ -181,14 +179,14 @@ const GitProfile = ({ config }) => {
                         loading={loading}
                         skills={sanitizedConfig.skills}
                       />
-                      <Experience
+                      {/* <Experience
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
                       />
                       <Education
                         loading={loading}
                         education={sanitizedConfig.education}
-                      />
+                      /> */}
                       <Certification
                         loading={loading}
                         certifications={sanitizedConfig.certifications}
@@ -203,16 +201,16 @@ const GitProfile = ({ config }) => {
                         github={sanitizedConfig.github}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                       />
-                      <ExternalProject
+                      {/* <ExternalProject
                         loading={loading}
                         externalProjects={sanitizedConfig.externalProjects}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
-                      />
-                      <Blog
+                      /> */}
+                      {/* <Blog
                         loading={loading}
                         googleAnalytics={sanitizedConfig.googleAnalytics}
                         blog={sanitizedConfig.blog}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>
