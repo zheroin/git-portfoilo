@@ -6,34 +6,34 @@
   <h4 align="center">Easy to use automatic portfolio builder for every GitHub user!</h4>
 
   <p align="center">
-    <a href="https://codeclimate.com/github/arifszn/gitprofile/maintainability">
+    <a href="https://codeclimate.com/github/CleanCodeCreature/git-portfolio/maintainability">
       <img src="https://api.codeclimate.com/v1/badges/c60f42d7d0b61bd33e98/maintainability" />
     </a>
-    <a href="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml">
-      <img src="https://github.com/arifszn/gitprofile/actions/workflows/test-deploy.yml/badge.svg" />
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/actions/workflows/test-deploy.yml">
+      <img src="https://github.com/CleanCodeCreature/git-portfolio/actions/workflows/test-deploy.yml/badge.svg" />
     </a>
-    <a href="https://github.com/arifszn/gitprofile/issues">
-      <img src="https://img.shields.io/github/issues/arifszn/gitprofile"/>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/issues">
+      <img src="https://img.shields.io/github/issues/CleanCodeCreature/git-portfolio"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/stargazers">
-      <img src="https://img.shields.io/github/stars/arifszn/gitprofile"/>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/stargazers">
+      <img src="https://img.shields.io/github/stars/CleanCodeCreature/git-portfolio"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/network/members">
-      <img src="https://img.shields.io/github/forks/arifszn/gitprofile"/>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/network/members">
+      <img src="https://img.shields.io/github/forks/CleanCodeCreature/git-portfolio"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/package-lock.json">
-      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/gitprofile"/>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/blob/main/package-lock.json">
+      <img src="https://img.shields.io/snyk/vulnerabilities/github/CleanCodeCreature/git-portfolio"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/arifszn/gitprofile"/>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/CleanCodeCreature/git-portfolio"/>
     </a>
     <a href="https://www.buymeacoffee.com/arifszn">
       <img src="https://img.shields.io/badge/sponsor-buy%20me%20a%20coffee-yellow?logo=buymeacoffee"/>
     </a>
-    <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20portfolio%20builder.%20Create%20an%20automatic%20portfolio%20based%20on%20GitHub%20profile.&url=https://github.com/arifszn/gitprofile&hashtags=javascript,opensource,js,webdev,developers">
+    <a href="https://twitter.com/intent/tweet?text=Check%20out%20the%20portfolio%20builder.%20Create%20an%20automatic%20portfolio%20based%20on%20GitHub%20profile.&url=https://github.com/CleanCodeCreature/git-portfolio&hashtags=javascript,opensource,js,webdev,developers">
       <img src="https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Farifszn%2Fgitprofile"/>
     </a>
   </p>
@@ -41,9 +41,9 @@
   <p align="center">
     <a href="https://arifszn.github.io/gitprofile">View Demo</a>
     ·
-    <a href="https://github.com/arifszn/gitprofile/issues">Report Bug</a>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/issues">Report Bug</a>
     ·
-    <a href="https://github.com/arifszn/gitprofile/discussions">Request Feature</a>
+    <a href="https://github.com/CleanCodeCreature/git-portfolio/discussions">Request Feature</a>
   </p>
 </p>
 
@@ -101,7 +101,7 @@ There are three ways to use **GitProfile**. Use any.
 
 These instructions will get you a copy of the project and deploy your portfolio online!
 
-- **Fork repo:** Click [here](https://github.com/arifszn/gitprofile/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
+- **Fork repo:** Click [here](https://github.com/CleanCodeCreature/git-portfolio/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
 - **Rename repo:**
   - If you want to host your portfolio at `https://<USERNAME>.github.io`, rename your forked repository to `username.github.io` in GitHub, where `username` is your GitHub username (or organization name).
   - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO>` (e.g. `portfolio`) in GitHub.
@@ -123,7 +123,7 @@ These instructions will get you a copy of the project and deploy your portfolio 
   }
   ```
 
-- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/arifszn/gitprofile/actions) tab.
+- **Commit the changes:** Now commit to your **main** branch with your changes. Wait a few minutes so that the CI/CD pipeline can publish your website to GitHub Pages. You can check the progress in the [Actions](https://github.com/CleanCodeCreature/git-portfolio/actions) tab.
 
 Your portfolio website will be live shortly. Any time you commit a change to the **main** branch, the website will be automatically updated. If you face any issue viewing the website, double-check the `base` value in the `vite.config.js` file. Also, check if **Source** is set to **GitHub Actions** in **Settings** ➜ **Pages** ➜ **Build and deployment**.
 
@@ -136,7 +136,7 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
 - Clone the project and change directory.
 
   ```shell
-  git clone https://github.com/arifszn/gitprofile.git
+  git clone https://github.com/CleanCodeCreature/git-portfolio.git
   cd gitprofile
   ```
 
@@ -156,23 +156,23 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
 
 ### Installing as package
 
-You can also use **GitProfile** by installing as an NPM package. First Install **GitProfile** via <a href="https://www.npmjs.com/package/@arifszn/gitprofile">NPM</a>.
+You can also use **GitProfile** by installing as an NPM package. First Install **GitProfile** via <a href="https://www.npmjs.com/package/@CleanCodeCreature/git-portfolio">NPM</a>.
 
 ```sh
-npm install @arifszn/gitprofile
+npm install @CleanCodeCreature/git-portfolio
 ```
 
-Or via <a href="https://yarnpkg.com/package/@arifszn/gitprofile">Yarn</a>.
+Or via <a href="https://yarnpkg.com/package/@CleanCodeCreature/git-portfolio">Yarn</a>.
 
 ```sh
-yarn add @arifszn/gitprofile
+yarn add @CleanCodeCreature/git-portfolio
 ```
 
 Then, import the package, import and style and provide the config.
 
 ```js
-import GitProfile from '@arifszn/gitprofile';
-import '@arifszn/gitprofile/dist/style.css';
+import GitProfile from '@CleanCodeCreature/git-portfolio';
+import '@CleanCodeCreature/git-portfolio/dist/style.css';
 
 function App() {
   return (
@@ -191,7 +191,7 @@ export default App;
 
 List of all config [here](#-customization).
 
-**If you face any problems or have any questions, open an issue [here](https://github.com/arifszn/gitprofile/issues).**
+**If you face any problems or have any questions, open an issue [here](https://github.com/CleanCodeCreature/git-portfolio/issues).**
 
 ## 🎨 Customization
 
@@ -629,14 +629,14 @@ The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
 ## 💖 Support
 
 <p>You can show your support by starring this project. ★</p>
-<a href="https://github.com/arifszn/gitprofile/stargazers">
-  <img src="https://img.shields.io/github/stars/arifszn/gitprofile?style=social" alt="Github Star">
+<a href="https://github.com/CleanCodeCreature/git-portfolio/stargazers">
+  <img src="https://img.shields.io/github/stars/CleanCodeCreature/git-portfolio?style=social" alt="Github Star">
 </a>
 
 ## 💡 Contribute
 
-To contribute, see the [Contributing guide](https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md).
+To contribute, see the [Contributing guide](https://github.com/CleanCodeCreature/git-portfolio/blob/main/CONTRIBUTING.md).
 
 ## 📄 License
 
-[MIT](https://github.com/arifszn/gitprofile/blob/main/LICENSE)
+[MIT](https://github.com/CleanCodeCreature/git-portfolio/blob/main/LICENSE)

@@ -1,5 +1,5 @@
 // Type definitions for GitProfile
-// Project https://github.com/arifszn/gitprofile
+// Project https://github.com/CleanCodeCreature/git-portfolio
 // Author: Ariful Alam <arifulalamszn@gmail.com>
 
 import { Component } from 'react';
