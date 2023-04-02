@@ -35,12 +35,9 @@
     "lint": "eslint --ext .js,.jsx .",
     "lint:fix": "eslint --ext .js,.jsx --fix .",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "predeploy": "npm install",
-    "deploy": "npm run build"
+    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\""
   },
   "dependencies": {
-    "@arifszn/blog-js": "^2.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
