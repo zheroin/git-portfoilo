@@ -97,7 +97,7 @@ There are three ways to use **GitProfile**. Use any.
 - [Setting up locally](#setting-up-locally)
 - [Installing as package](#installing-as-package)
 
-### Forking this repo
+### Forking this repo...
 
 These instructions will get you a copy of the project and deploy your portfolio online!
 
