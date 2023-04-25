@@ -23,7 +23,7 @@ const config = {
     stackoverflow: '21454476/lambert-lee', // format: userid/username
     skype: 'https://join.skype.com/invite/yEMGNPuV5TQh',
     telegram: '',
-    website: 'https://lambert-lee.vercel.app',
+    website: 'https://zheroindev.vercel.app',
     phone: '',
     email: 'onceBetter2025@outlook.com',
   },
