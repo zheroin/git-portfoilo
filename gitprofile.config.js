@@ -28,7 +28,7 @@ const config = {
     email: 'onceBetter2025@outlook.com',
   },
   resume: {
-    fileUrl: `https://drive.google.com/file/d/1AkWBId_lIsfBEFnZ3tu5Sy0dwwivvvl9/view?usp=sharing`, // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: `https://drive.google.com/file/d/1YFtNsfym5hl-L8Ydna0_xigGhwLEMMAo/view?usp=share_link`, // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
